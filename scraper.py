@@ -5,7 +5,7 @@ ADB_TARGET = "192.168.18.174:5555"
 
 def connect_adb():
     print("Connecting to ADB")
-    subprocess.run(["adb", "connecT", ADB_TARGET], check=False)
+    subprocess.run(["adb", "connect", ADB_TARGET], check=False)
     
 def run_scraper():
     print("Uruchamiam scraper")
