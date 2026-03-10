@@ -127,7 +127,7 @@ def main():
     wait_device_data_ready(wait)
     print("👉 DEVICE DATA otwarte")
 
-    for tab in ["TEMP.", "OTHER", "0/1"]:
+    for tab in ["TEMP.", "INNE", "0/1"]:
         print(f"👉 Zakładka {tab}")
         click_tab(tab, driver)
         collect_tab(data, driver)
