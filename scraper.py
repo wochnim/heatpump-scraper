@@ -1,7 +1,7 @@
 import time
 import subprocess
 
-ADB_TARGET = "192.168.18.251:5555"
+ADB_TARGET = "192.168.18.174:5555"
 
 def connect_adb():
     print("Connecting to ADB")

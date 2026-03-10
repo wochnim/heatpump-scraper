@@ -122,7 +122,7 @@ def main():
     wait_device_data_ready()
     print("👉 DEVICE DATA otwarte")
 
-    for tab in ["TEMP.", "INNE", "0/1"]:
+    for tab in ["TEMP.", "OTHER", "0/1"]:
         print(f"👉 Zakładka {tab}")
         click_tab(tab)
         collect_tab(data)
